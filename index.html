@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ferretería El Tornillo | Soluciones y herramientas para todos tus proyectos</title>
+  <meta name="description" content="Ferretería El Tornillo en Los Pinos. Herramientas, pintura, tornillería y material eléctrico. Atención de calidad de Lunes a Sábado en Calle 10 #23-45.">
+  <meta name="theme-color" content="#1E293B">
+
+  <!-- Hoja de estilos externa modular -->
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <!-- Enlace accesible para saltar directo al contenido -->
+  <a href="#inicio" class="skip-link">Saltar al contenido principal</a>
+
+  <!-- ==========================================================================
+       1. HEADER / NAVBAR STICKY
+       ========================================================================== -->
+  <header class="site-header" role="banner">
+    <div class="container nav-wrapper">
+      <!-- Logotipo e Identidad de Marca -->
+      <a href="#inicio" class="brand-logo" aria-label="Ferretería El Tornillo - Ir al inicio">
+        <div class="brand-icon-box" aria-hidden="true">
+          <!-- Icono SVG de Tornillo / Herramienta -->
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+          </svg>
+        </div>
+        <div class="brand-text-name">
+          <span class="brand-text-main">El Tornillo</span>
+          <span class="brand-text-sub">Ferretería</span>
+        </div>
+      </a>
+
+      <!-- Botón Hamburguesa para Móviles -->
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Abrir menú de navegación">
+        <svg id="menuOpenIcon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+        <svg id="menuCloseIcon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <!-- Enlaces de Navegación Rápida -->
+      <nav id="primaryNav" aria-label="Navegación principal">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#inicio" class="nav-link">Inicio</a></li>
+          <li><a href="#productos" class="nav-link">Productos</a></li>
+          <li><a href="#contacto" class="nav-link nav-cta">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       MAIN CONTENT
+       ========================================================================== -->
+  <main id="mainContent">
+
+    <!-- ========================================================================
+         2. SECCIÓN 1: HERO / INICIO
+         ======================================================================== -->
+    <section id="inicio" class="hero-section" aria-labelledby="heroTitle">
+      <div class="container hero-content">
+        <!-- Badge de Horario y Estado Operativo -->
+        <div class="hero-badges-wrapper">
+          <div class="hours-badge">
+            <span class="pulse-dot" aria-hidden="true"></span>
+            <span>Horario: Lunes a Sábado, 8:00 a.m. a 6:00 p.m.</span>
+          </div>
+        </div>
+
+        <!-- Título Principal de Impacto -->
+        <h1 id="heroTitle" class="hero-title">
+          Ferretería <span class="highlight-text">El Tornillo</span>
+        </h1>
+
+        <!-- Eslogan Oficial -->
+        <p class="hero-slogan">
+          "Soluciones y herramientas para todos tus proyectos."
+        </p>
+
+        <!-- Botones CTA con Desplazamiento Suave -->
+        <div class="hero-actions">
+          <a href="#contacto" class="btn btn-primary" id="heroCtaBtn">
+            <span>Escríbenos y Cotiza</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <a href="#productos" class="btn btn-secondary">
+            <span>Ver Catálogo</span>
+          </a>
+        </div>
+
+        <!-- Imagen del Local Comercial -->
+        <div class="hero-image-box">
+          <img src="img/hero-ferreteria.jpg" alt="Interior moderno de Ferretería El Tornillo" class="hero-showcase-img" loading="eager">
+        </div>
+
+        <!-- Barra de Beneficios / Calidad Local -->
+        <div class="hero-features-bar" aria-label="Ventajas de Ferretería El Tornillo">
+          <div class="hero-feature-item">
+            <div class="feature-icon-circle" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </div>
+            <div>
+              <div class="feature-text-title">Asesoría Experta</div>
+              <div class="feature-text-desc">Te orientamos en cada compra</div>
+            </div>
+          </div>
+
+          <div class="hero-feature-item">
+            <div class="feature-icon-circle" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <div>
+              <div class="feature-text-title">Calidad Garantizada</div>
+              <div class="feature-text-desc">Marcas líderes del sector</div>
+            </div>
+          </div>
+
+          <div class="hero-feature-item">
+            <div class="feature-icon-circle" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <div>
+              <div class="feature-text-title">Atención Continua</div>
+              <div class="feature-text-desc">Lun a Sáb: 8:00am - 6:00pm</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         3. SECCIÓN 2: PRODUCTOS Y SERVICIOS (4 CATEGORÍAS EN GRID)
+         ======================================================================== -->
+    <section id="productos" class="section-products" aria-labelledby="productsTitle">
+      <div class="container">
+        <!-- Encabezado de Sección -->
+        <div class="section-header">
+          <span class="section-tag">Nuestras Categorías</span>
+          <h2 id="productsTitle" class="section-title">Productos y Servicios Especializados</h2>
+          <p class="section-subtitle">
+            Equipamos tanto a constructores y técnicos profesionales como a aficionados al bricolaje con materiales de primera línea.
+          </p>
+        </div>
+
+        <!-- Cuadrícula CSS Grid con 4 Tarjetas Estilizadas -->
+        <div class="products-grid">
+
+          <!-- Categoría 1: Herramientas -->
+          <article class="product-card">
+            <div class="card-image-box">
+              <img src="img/herramientas.jpg" alt="Herramientas manuales y eléctricas de alta calidad" class="card-img" loading="lazy">
+            </div>
+            <div class="card-icon-container" aria-hidden="true">
+              <!-- SVG Inline: Herramientas (Llave y Martillo) -->
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                <line x1="2" y1="22" x2="8" y2="16"></line>
+              </svg>
+            </div>
+            <h3 class="card-title">Herramientas</h3>
+            <p class="card-description">
+              Manuales y eléctricas de alta resistencia: taladros, amoladoras, destornilladores, llaves fijas, alicates y discos de corte para cualquier nivel de exigencia.
+            </p>
+            <div class="card-tags">
+              <span class="card-tag-pill">Manuales</span>
+              <span class="card-tag-pill">Eléctricas</span>
+              <span class="card-tag-pill">Accesorios</span>
+            </div>
+          </article>
+
+          <!-- Categoría 2: Pintura -->
+          <article class="product-card">
+            <div class="card-image-box">
+              <img src="img/pintura.jpg" alt="Pinturas para interiores y exteriores y accesorios" class="card-img" loading="lazy">
+            </div>
+            <div class="card-icon-container" aria-hidden="true">
+              <!-- SVG Inline: Pintura (Rodillo y Brocha) -->
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="6" rx="2"></rect>
+                <path d="M10 9v3a3 3 0 0 1-3 3H5a2 2 0 0 0-2 2v2"></path>
+                <circle cx="12" cy="19" r="2"></circle>
+                <path d="M14 19h7"></path>
+              </svg>
+            </div>
+            <h3 class="card-title">Pintura</h3>
+            <p class="card-description">
+              Soluciones para interiores, exteriores y protección industrial. Esmaltes, vinilos lavables, anticorrosivos, solventes, brochas, rodillos y cintas de enmascarar.
+            </p>
+            <div class="card-tags">
+              <span class="card-tag-pill">Interiores</span>
+              <span class="card-tag-pill">Exteriores</span>
+              <span class="card-tag-pill">Anticorrosivos</span>
+            </div>
+          </article>
+
+          <!-- Categoría 3: Tornillería -->
+          <article class="product-card">
+            <div class="card-image-box">
+              <img src="img/tornilleria.jpg" alt="Pernos, tuercas y tornillería especializada" class="card-img" loading="lazy">
+            </div>
+            <div class="card-icon-container" aria-hidden="true">
+              <!-- SVG Inline: Tornillería (Perno y Rosca) -->
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2v20"></path>
+                <path d="M8 6h8"></path>
+                <path d="M7 10h10"></path>
+                <path d="M8 14h8"></path>
+                <path d="M9 18h6"></path>
+                <path d="M6 3h12a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"></path>
+              </svg>
+            </div>
+            <h3 class="card-title">Tornillería</h3>
+            <p class="card-description">
+              Pernos, tuercas, arandelas, chazos y sistemas de fijación en acero al carbono e inoxidable. Medidas métricas y estándar para proyectos de carpintería y metalmecánica.
+            </p>
+            <div class="card-tags">
+              <span class="card-tag-pill">Pernos</span>
+              <span class="card-tag-pill">Tuercas</span>
+              <span class="card-tag-pill">Anclajes</span>
+            </div>
+          </article>
+
+          <!-- Categoría 4: Material Eléctrico -->
+          <article class="product-card">
+            <div class="card-image-box">
+              <img src="img/material-electrico.jpg" alt="Cables certificados e iluminación eléctrica" class="card-img" loading="lazy">
+            </div>
+            <div class="card-icon-container" aria-hidden="true">
+              <!-- SVG Inline: Material Eléctrico (Enchufe e Iluminación) -->
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+            </div>
+            <h3 class="card-title">Material Eléctrico</h3>
+            <p class="card-description">
+              Cables de diversos calibres certificados, iluminación LED de bajo consumo, breakers térmicos, tomas, interruptores y canaletas para instalaciones seguras.
+            </p>
+            <div class="card-tags">
+              <span class="card-tag-pill">Cables</span>
+              <span class="card-tag-pill">Iluminación LED</span>
+              <span class="card-tag-pill">Mecanismos</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         4. SECCIÓN 3: CONTACTO Y UBICACIÓN
+         ======================================================================== -->
+    <section id="contacto" class="section-contact" aria-labelledby="contactTitle">
+      <div class="container">
+        <!-- Encabezado de Sección -->
+        <div class="section-header">
+          <span class="section-tag">Atención Personalizada</span>
+          <h2 id="contactTitle" class="section-title">Contáctanos y Visítanos</h2>
+          <p class="section-subtitle">
+            ¿Buscas una medida específica o necesitas cotizar materiales al por mayor? Estamos listos para asistirte.
+          </p>
+        </div>
+
+        <div class="contact-layout">
+
+          <!-- Panel de Información de la Ferretería -->
+          <div class="contact-info-panel">
+            <h3 class="info-panel-title">Información del Negocio</h3>
+            <p class="info-panel-desc">
+              Pasa directamente por nuestro punto de atención en Los Pinos o déjanos tu consulta a través del formulario.
+            </p>
+
+            <ul class="info-items-list">
+              <!-- Ubicación Exacta -->
+              <li class="info-item">
+                <div class="info-item-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <div class="info-item-label">Dirección Física</div>
+                  <div class="info-item-value">Calle 10 #23-45</div>
+                  <div class="info-item-subvalue">Barrio Los Pinos</div>
+                </div>
+              </li>
+
+              <!-- Horario de Atención -->
+              <li class="info-item">
+                <div class="info-item-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <div class="info-item-label">Horario de Atención</div>
+                  <div class="info-item-value">Lunes a Sábado</div>
+                  <div class="info-item-subvalue">8:00 a.m. a 6:00 p.m. (Jornada Continua)</div>
+                </div>
+              </li>
+
+              <!-- Atención Rápida / WhatsApp -->
+              <li class="info-item">
+                <div class="info-item-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <div class="info-item-label">Línea Telefónica</div>
+                  <div class="info-item-value">(+57) 300 123 4567</div>
+                  <div class="info-item-subvalue">Atención inmediata en horario laboral</div>
+                </div>
+              </li>
+            </ul>
+
+            <!-- Badge Informativo -->
+            <div class="location-notice-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="8" x2="12" y2="12"></line>
+                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+              </svg>
+              <span>Ubicación céntrica y de fácil acceso con zona de parqueo temporal para carga de materiales.</span>
+            </div>
+          </div>
+
+          <!-- Formulario de Contacto Limpio y Accesible -->
+          <div class="contact-form-card">
+            <h3 class="form-title">Envíanos un Mensaje</h3>
+            <p class="form-subtitle">Completa el formulario y te responderemos a la mayor brevedad posible.</p>
+
+            <!-- Contenedor Dinámico para Notificaciones de Éxito / Error -->
+            <div id="formAlert" class="form-alert" role="status" aria-live="polite">
+              <div id="alertIcon" class="alert-icon" aria-hidden="true"></div>
+              <div id="alertMessage" class="alert-text"></div>
+            </div>
+
+            <form id="contactForm" novalidate aria-label="Formulario de contacto de Ferretería El Tornillo">
+              <!-- Campo: Nombre Completo -->
+              <div class="form-group">
+                <label for="nombre" class="form-label">
+                  Nombre completo <span class="required-mark" aria-label="obligatorio">*</span>
+                </label>
+                <input 
+                  type="text" 
+                  id="nombre" 
+                  name="nombre" 
+                  class="form-input" 
+                  placeholder="Ej. Carlos Martínez" 
+                  autocomplete="name" 
+                  required
+                  aria-describedby="nombreError"
+                >
+                <span id="nombreError" class="field-error-text" aria-live="polite"></span>
+                <span class="field-hint">Mínimo 2 caracteres sin espacios en blanco.</span>
+              </div>
+
+              <!-- Campo: Mensaje -->
+              <div class="form-group">
+                <label for="mensaje" class="form-label">
+                  Mensaje o lista de materiales <span class="required-mark" aria-label="obligatorio">*</span>
+                </label>
+                <textarea 
+                  id="mensaje" 
+                  name="mensaje" 
+                  rows="4" 
+                  class="form-textarea" 
+                  placeholder="Escribe aquí los productos, cantidades o la duda que deseas cotizar..." 
+                  required
+                  aria-describedby="mensajeError"
+                ></textarea>
+                <span id="mensajeError" class="field-error-text" aria-live="polite"></span>
+              </div>
+
+              <!-- Botón de Envío -->
+              <button type="submit" id="btnSubmit" class="btn btn-primary form-submit-btn">
+                <span>Enviar Mensaje</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================================================
+       5. FOOTER
+       ========================================================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Columna 1: Marca y Eslogan -->
+        <div>
+          <div class="footer-brand-title">Ferretería El Tornillo</div>
+          <p class="footer-brand-desc">
+            "Soluciones y herramientas para todos tus proyectos." Tu aliado confiable en materiales para el hogar y la industria.
+          </p>
+        </div>
+
+        <!-- Columna 2: Enlaces Rápidos -->
+        <div>
+          <h4 class="footer-heading">Navegación</h4>
+          <ul class="footer-links-list">
+            <li><a href="#inicio" class="footer-link">Inicio</a></li>
+            <li><a href="#productos" class="footer-link">Catálogo de Productos</a></li>
+            <li><a href="#contacto" class="footer-link">Ubicación y Contacto</a></li>
+          </ul>
+        </div>
+
+        <!-- Columna 3: Información y Horario -->
+        <div>
+          <h4 class="footer-heading">Visítanos</h4>
+          <p class="footer-hours-text">
+            <strong>Dirección:</strong> Calle 10 #23-45, barrio Los Pinos.<br>
+            <strong>Horario:</strong> Lun – Sáb: 8:00 a.m. a 6:00 p.m.<br>
+            <strong>Domingos y Festivos:</strong> Cerrado.
+          </p>
+        </div>
+      </div>
+
+      <!-- Pie de página inferior -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 Ferretería El Tornillo. Todos los derechos reservados. Diseñado para ofrecer la mejor experiencia rápida y accesible.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lógica JavaScript Vanilla Externa -->
+  <script src="js/contacto.js"></script>
+</body>
+</html>
